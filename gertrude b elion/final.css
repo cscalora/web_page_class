@@ -1,0 +1,74 @@
+/* Caroline Scalora */
+/* Gertrude B Elion */
+/* 11-January-2018 */
+
+* { 		/* The universal selector */
+    margin: 0;
+    padding: 0; }
+
+header { 	/* Format for the header */
+    border-bottom: 2px solid #ef9c00;
+    text-align: center; }
+
+body {		/* Format for the body */
+    width: 95%;
+    background-color: white;
+    margin: 15px auto;
+    border: 1px solid black; }
+
+#sidebarA {	/* Format for sidebar A, the column on the left */
+    width: 24%;
+    height: 520px;     
+    float: left;
+    text-align: center; }
+
+main {		/* Format for the main */
+    width: 50%; 
+    float: left; }
+    
+.Biography{	/* Format for the heading, Biography */
+	text-align: center; }
+	
+
+#sidebarB {	/* Format for sidebar B, the column on the right */
+    width: 24%;
+    height: 520px;     
+    float: right; 
+    text-align: center;
+    }
+
+footer {	/* Format for the footer */
+    clear: both; 
+    border-top: 2px solid #ef9c00; }
+    
+ul {		/* Format for the unordered list in sidebar B */
+	list-style-type: none; }
+	
+.sideB {	/* Format for the paragraph under Notable Awards and above Won the... */
+	margin-left: 5px;
+	margin-right: 5px; }
+	
+img {		/* Format for both images */
+	border-top: 3px solid #8BAEA4;
+	border-bottom: 3px solid #8BAEA4;
+	border-right: 3px solid #8BAEA4;
+	border-left: 3px solid #8BAEA4; }
+	
+.closeup {	/* Format for the closeup headshot of Gertrude */
+	float: left;
+	margin: 15px; 
+	height: 145px;
+	width: 120px; }
+	
+.board {	/* Format for the picture with Gertrude with a board */
+	height: 145px;
+	width: 200px; }
+	
+p {			/* Format for all paragraphs on the page */
+	padding: 10px; }
+	
+h2 {		/* Format for all h2 on the page */
+	padding: 5px; }
+	
+.material {	/* Format for the material reproduced for educational purposes */
+	float: right; }
